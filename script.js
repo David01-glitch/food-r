@@ -42,6 +42,6 @@ if(cf){
     e.preventDefault();
     const name = encodeURIComponent(cf.cname.value);
     const msg = encodeURIComponent(cf.cmsg.value + '\n\n— ' + cf.cname.value);
-    window.location.href = `mailto:Grandparenting34@gmail.com?subject=Hello%20from%20${name}&body=${msg}`;
+    window.location.href = `mailto:grandkitchen@gmail.com?subject=Hello%20from%20${name}&body=${msg}`;
   });
 }
