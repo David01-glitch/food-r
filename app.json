@@ -1,0 +1,14 @@
+{
+  "name": "Grandma's Kitchen",
+  "description": "Comfort food recipes and slow-paced cooking videos.",
+  "repository": "https://github.com/David01-glitch/food-r",
+  "keywords": ["recipes", "comfort-food", "static-site", "node", "express"],
+  "env": {
+    "NODE_ENV": {
+      "value": "production"
+    }
+  },
+  "buildpacks": [
+    { "url": "heroku/nodejs" }
+  ]
+}
